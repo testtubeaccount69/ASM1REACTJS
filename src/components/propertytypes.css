@@ -1,0 +1,35 @@
+.property-types {
+    margin: 2rem auto;
+    max-width: 75rem;
+    /* centers content */
+}
+
+.types-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap: 1.5rem;
+}
+
+.property-card {
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.property-img {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.property-text {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    color: white;
+    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.7);
+}
+
+.section-title {
+    color: black;
+}

@@ -1,0 +1,26 @@
+.footer {
+    background-color: #f9f9f9;
+    padding: 2rem 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.footer-column {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-link {
+    margin-bottom: 0.5rem;
+    color: #555;
+    cursor: pointer;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    /* Booking.com blue */
+    color: white;
+    font-size: 1.2rem;
+    background: #003580
+}
+
+.navbar-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 30rem;
+}
+
+.navbar-item:hover {
+    background-color: #1a4da0;
+}
+
+.navbar-item.active {
+    border: 0.2rem solid white;
+    background-color: #1a4da0;
+}
+
+.navbar-top {
+    display: flex;
+    flex-direction: row;
+    gap: 50rem;
+    ;
+}

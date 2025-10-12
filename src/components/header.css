@@ -1,0 +1,103 @@
+.header {
+
+    color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background: linear-gradient(to bottom, #003580 75%, white 50%);
+
+}
+
+.header-title {
+    font-size: auto;
+
+}
+
+.header-form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: black;
+    border: 0.2rem solid rgb(255, 199, 13);
+}
+
+.header-input {
+    border: none;
+}
+
+.header-input input {
+    border: none;
+    outline: none;
+}
+
+.header button {
+    padding: 0.1rem 0.2rem;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    border-radius: 0.1rem;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: #005999;
+}
+
+.date-range {
+
+    display: flex;
+    align-items: center;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.4rem;
+    padding: 0.4rem 0.6rem;
+    gap: 0.5rem;
+}
+
+.date-range input {
+
+    border: none;
+    outline: none;
+    padding: 0.4rem;
+    font-size: 0.9rem;
+    flex: 1;
+}
+
+.date-separator {
+
+    margin: 0 0.5rem;
+    color: gray;
+}
+
+.formItem {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #fff;
+    padding: 0.6rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.4rem;
+}
+
+
+
+.formItem input {
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    flex: 1;
+}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+    -webkit-appearance: none;
+}

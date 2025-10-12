@@ -1,0 +1,10 @@
+.container {
+    max-width: 75rem;
+    /* around 1200px */
+    margin: 0 auto;
+    /* centers the content */
+    padding: 0 1rem;
+    /* small padding on left/right */
+
+    color: white;
+}

@@ -1,0 +1,52 @@
+.featured-cities {
+    padding: 1.6rem 1rem;
+}
+
+.section-title {
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+}
+
+/* responsive grid */
+.cities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap: 1rem;
+}
+
+/* card */
+.city-card {
+    position: relative;
+    /* make container positioning context */
+    overflow: hidden;
+}
+
+.city-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0.5rem;
+}
+
+.city-text {
+    position: absolute;
+    /* put text on top of image */
+    bottom: 1rem;
+    /* move to bottom */
+    left: 1rem;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.6);
+    /* make text readable */
+}
+
+.city-text h3 {
+    margin: 0 0 0.25rem 0;
+    font-size: 2.5rem;
+}
+
+.city-text p {
+    margin: 0;
+    font-size: 2rem;
+    color: white;
+}

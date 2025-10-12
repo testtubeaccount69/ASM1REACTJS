@@ -1,0 +1,9 @@
+.hotel-list {
+    margin: 2rem 0;
+}
+
+.hotels-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 1.5rem;
+}
