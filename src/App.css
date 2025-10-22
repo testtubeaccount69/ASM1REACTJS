@@ -1,0 +1,17 @@
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-header-bg,
+.app-footer-bg {
+    background-color: #003580;
+    color: white;
+    width: 100%;
+}
+
+.app-content {
+    background-color: #fff;
+    flex: 1;
+}

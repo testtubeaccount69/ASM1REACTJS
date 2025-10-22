@@ -14,7 +14,7 @@ function PropertyTypeCard({ name, count, image }) {
     );
 }
 
-// ✅ Main section component (plural)
+
 export default function PropertyTypes() {
     return (
         <section className="property-types">

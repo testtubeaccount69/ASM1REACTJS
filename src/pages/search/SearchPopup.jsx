@@ -13,12 +13,65 @@ export default function SearchPopup() {
             <label className="label">Check-in Date</label>
             <input className="input" type="text" placeholder="Check-in — Check-out" />
 
-            <label className="label">Guests</label>
-            <input className="input" type="text" placeholder="2 adults · 0 children · 1 room" readOnly />
+            <h4>Options</h4>
+            <div className="additional-field">
+                <div className="field">
+                    <label className="label-add">
+                        <p className="big-text">Min price</p>
+                        <p className="small-text">per night</p>
+                    </label>
+                    <input className="input-add" type="text" placeholder="0" />
+                </div>
 
-            <button className="update-btn" onClick={() => window.alert("Update search (stub)")}>
+                <div className="field">
+                    <label className="label-add">
+                        <p className="big-text">Max price</p>
+                        <p className="small-text">per night</p>
+                    </label>
+                    <input className="input-add" type="text" placeholder="0" />
+                </div>
+
+                <div className="field">
+                    <label className="label-add">Adult</label>
+                    <input className="input-add" type="text" placeholder="0" />
+                </div>
+
+                <div className="field">
+                    <label className="label-add">Children</label>
+                    <input className="input-add" type="text" placeholder="0" />
+                </div>
+
+                <div className="field">
+                    <label className="label-add">Room</label>
+                    <input className="input-add" type="text" placeholder="0" />
+                </div>
+            </div>
+            <button className="update-btn" onClick={() => window.alert("Search result updated!")}>
                 Search
             </button>
         </div>
     );
 }
+
+/*
+            <div className="search-popupmini">
+                <label className="label"><p className='big-text'>Min price</p><p className='small-text'>per night</p></label>
+                <input className="input" type="text" placeholder="0" />
+            </div>
+            <div className="search-popupmini">
+                <label className="label"><p className='big-text'>Min price</p><p className='small-text'>per night</p></label>
+                <input className="input" type="text" placeholder="1" />
+            </div>
+            <div className="search-popupmini">
+                <label className="label">Adult</label>
+                <input className="input" type="text" placeholder="0" />
+            </div>
+            <div className="search-popupmini">
+                <label className="label">Children</label>
+                <input className="input" type="text" placeholder="1" />
+            </div>
+            <div className="search-popupmini">
+                <label className="label">Room</label>
+                <input className="input" type="text" placeholder="0" />
+            </div>
+            */

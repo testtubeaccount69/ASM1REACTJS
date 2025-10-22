@@ -37,11 +37,12 @@ export default function SearchListItem({
             <div className="search-item-right">
                 <div className="search-item-rate">
 
-                    <small className="rate-text">{rate_text}</small>
+                    <span className="rate-text">{rate_text}</span>
                     <span className="rate-num">{rate}</span>
                 </div>
                 <div className="search-item-price">${price}</div>
                 <p className="search-item-tax">Includes taxes and fees</p>
+                <button className='search-availablity'>See Availability</button>
 
             </div>
         </article>
